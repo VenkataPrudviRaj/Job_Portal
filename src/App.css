@@ -1,0 +1,12 @@
+/* app.css or global.css */
+.job-carousel-wrapper .carousel-control {
+    opacity: 0;
+    background-color: #fde68a; /* Tailwind's amber-300 */
+    border: none;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .job-carousel-wrapper:hover .carousel-control {
+    opacity: 0.85;
+  }
+  
